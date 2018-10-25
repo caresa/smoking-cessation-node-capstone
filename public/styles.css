@@ -1,10 +1,34 @@
+/*css reset*/
 * {
     margin: 0;
     padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
     box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
 }
 
-html,
-body {
-    height: 100%;
+/*general styles*/
+
+html {
+    background: url("web-imgs/chalk.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: hsla(0, 0%, 100%, 0.30);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
