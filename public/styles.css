@@ -20,11 +20,13 @@
 /*general styles*/
 
 html {
-    background: url("images/sunset.jpg") no-repeat center center fixed;
+    background-color: #FFFD38;
     background-size: cover;
-    background-color: hsla(0, 0%, 100%, 0.30);
+    //background-color: hsla(0, 0%, 100%, 0.30);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
+    font-family: 'Monoton';
+    letter-spacing: 2em;
 }
 
 .clearfix::after {
@@ -34,6 +36,28 @@ html {
 }
 
 /*header styles*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+    position: relative;
+}
+
+.container {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    float: right;
+    background-color: #fff;
+    top: 0;
+}
+
 
 
 /*content styles*/

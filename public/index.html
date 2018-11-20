@@ -12,12 +12,25 @@
 </head>
 
 <body>
-    TESTING
+    <div class="header sticky" id="myHeader">
+        <h2>EXHALE</h2>
+        <div class="container" onclick="toggle(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
 </body>
 <!--scripts-->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="client.js"></script>
+<script src="config.js"></script><script type="application/javascript">
+    function toggle(x) {
+        alert(1);
+        x.classList.toggle("change");
+    }
+</script>
 
 </html>
