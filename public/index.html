@@ -8,13 +8,36 @@
     <meta name="description" content="An app to encourage healthh habbits">
     <!--styles-->
     <link href="https://fonts.googleapis.com/css?family=Monoton|Bungee+Inline" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" type="text/css">
+
 </head>
+<!--hamburger-->
+
+<header>
+    <a href="#main-menu" class="menu-toggle" role="button" id="main-menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Open main menu">
+        <span class="sr-only">Open main menu</span>
+        <span class="fa fa-bars" aria-hidden="true"></span>
+    </a>
+    <nav id="main-menu" class="main-menu" role="navigation" aria-expanded="false" aria-label="Main menu">
+        <a href="#main-menu-toggle" class="menu-close" role="button" id="main-menu-close" aria-expanded="false" aria-controls="main-menu" aria-label="Close main menu">
+            <span class="sr-only">Close main menu</span>
+            <span class="fa fa-close" aria-hidden="true"></span>
+        </a>
+        <ul>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+</header>
 
 <body>
     <div class="header sticky" id="myHeader">
         <h2>EXHALE</h2>
         <div class="container" onclick="toggle(this)">
+            <!--<i class="fas fa-align-justify"></i>-->
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
@@ -26,7 +49,8 @@
 <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="client.js"></script>
-<script src="config.js"></script><script type="application/javascript">
+<script src="config.js"></script>
+<script type="application/javascript">
     function toggle(x) {
         alert(1);
         x.classList.toggle("change");
