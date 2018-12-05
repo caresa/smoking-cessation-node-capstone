@@ -1,11 +1,11 @@
 # smoking-cessation-node-capstone
 An application to encourage good habits and discourage bad habits
 
-//The insight•full app allows you to track your meditation sessions and add insights on how your session went. You can then view your practice over time and read your journal of insights gained during your sessions.//
+//The smoking-cessation app allows you to track your progress and pitfalls as you try to give up a bad habbit. This will help assist in tracking progress and triggers//
 
 ### Working Prototype
 
-View Node working prototype here: [insight•full](https://smoking-cessation.herokuapp.com/)
+View Node working prototype here: Exhale(https://smoking-cessation.herokuapp.com/)
 
 ## Site Map: MVP
 
