@@ -14,23 +14,12 @@ View Node working prototype here: Exhale(https://smoking-cessation.herokuapp.com
 
 ## UX & User Stories: MVP
 
-**Landing Page**
+**Login and Sign Up Pager
 
 As a user, I want to understand what the app is so that I can decide if I want to sign up
+and if so I want to be able to store my user information or return to the site to track my progress.
 
-![Landing Page Design](/screenshots/wireframes/landing.png)
-
-**Sign Up Page**
-
-As a user, I want to sign up so that I can save my information
-
-![Sign Up Page Design](/screenshots/wireframes/sign-up.png)
-
-**Log In Page**
-
-As a user, I want to log in so I can have access to my tracker
-
-![Log in Page Design](/screenshots/wireframes/log-in.png)
+![Log in Page Design](/screenshots/login.png)
 
 **Dashboard Page**
 
