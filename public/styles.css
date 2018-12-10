@@ -45,6 +45,17 @@ html {
 }
 
 /*header styles*/
+
+.container {
+    display: inline-flex;
+    position: absolute;
+    cursor: pointer;
+    float: right;
+    background-color: #fff;
+    top: 0;
+    widows: 100%;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -55,18 +66,11 @@ html {
     padding: 10px 16px;
     background: #555;
     color: #f1f1f1;
-    position: relative;
 }
 
-.container {
-    display: inline-block;
-    position: absolute;
-    cursor: pointer;
+.fas {
     float: right;
-    background-color: #fff;
-    top: 0;
 }
-
 
 
 /*content styles*/
