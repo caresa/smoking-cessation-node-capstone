@@ -26,6 +26,7 @@ body {
 
 body {
     margin: 0;
+    display: flex;
 }
 
 html {
@@ -80,7 +81,11 @@ h2 {
 
 /*content styles*/
 
-
+section {
+    text-align: center;
+    background-color: aliceblue;
+    height: 100%;
+}
 
 
 
