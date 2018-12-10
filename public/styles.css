@@ -84,15 +84,33 @@ h2 {
 section {
     margin: auto;
     width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 1em;
 }
 
 input {
     text-align: center;
     width: 100%;
+    padding: 5%;
+    background-color: white;
 }
 
+button {
+    background-color: #555;
+    widows: 100%;
+    color: white;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#signup {
+    float: right;
+}
+
+p {
+    padding: 2em;
+}
 
 
 
