@@ -88,6 +88,10 @@ section {
     padding: 10px;
 }
 
+input {
+    text-align: center;
+    width: 100%;
+}
 
 
 
