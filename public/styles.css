@@ -46,6 +46,11 @@ html {
 
 /*header styles*/
 
+h2 {
+    box-sizing: border-box;
+    display: inline-block;
+}
+
 .container {
     display: inline-flex;
     position: absolute;
